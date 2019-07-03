@@ -1,0 +1,44 @@
+sql-bp - Schéma SQL (sqlite) pour budget prévisionnel et plan d'affaire.
+sql-bp - SQLite schema for business plan.
+
+Travail en cours (work in progress).
+
+Présentation
+------------
+
+Le schéma SQL joint permet de réaliser un budget prévisionnel et un
+plan d'affaires avec SQLite. Une fois les données de base entrées,
+différentes vues permettront d'afficher diverses données utiles:
+- compte de résultat
+- plan de trésorerie
+- calendrier de TVA
+- etc.
+
+
+Dépendances
+-----------
+
+Pour le calcul des intérêts d'emprunts, la fonction power() doit être
+implémentée dans votre logiciel, celle-ci n'étant pas implémentée par
+défaut dans l'outil en ligne de commande sqlite3.
+
+
+Usage
+-----
+
+Pour créer une base de donnée vide, entrer: 
+
+    make schema.db
+
+Il est aussi possible d'entrer et de tester un jeu de données (ici, un
+plan d'affaires pour la création d'une librairie):
+
+	make librairie.db
+    make librairie
+
+
+License
+-------
+
+Distribué sous license ISC.
+
