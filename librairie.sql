@@ -238,7 +238,7 @@ values
 	("Agencements", 5000, 7, 0.2),
 	("Mobilier", 5000, 5, 0.2),
 	("Matériel informatique", 3000, 3, 0.2),
-	("Travaux Juanola", 3000, 5, 0.2);
+	("Travaux", 3000, 5, 0.2);
 
 
 insert into Fonds
