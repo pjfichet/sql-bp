@@ -1,10 +1,24 @@
-sql-bp - Schéma SQL (sqlite) pour budget prévisionnel et plan d'affaire.
-sql-bp - SQLite schema for business plan.
+Information
+-----------
 
-Travail en cours (work in progress).
+I stopped working on this SQL schema as I realized it was
+too difficult (if possible at all) to implement the rules
+to calculate a budget in SQL. I still keep this archive
+as it may serve for future works.
+
+J'ai arrêté de travailler sur ce schéma SQL en considérant qu'il
+était trop compliqué (voir impossible) d'implémenter en SQL
+l'ensemble des calculs nécessaires à la gestion prévisionnelle.
+Cette archive est néanmoins conservée, car elle peut servir de
+référence à des tentatives similaires.
+
 
 Présentation
 ------------
+
+sql-bp - SQLite schema for business plan.
+sql-bp - Schéma SQL (sqlite) pour budget prévisionnel et plan d'affaire.
+
 
 Le schéma SQL joint permet de réaliser un budget prévisionnel et un
 plan d'affaires avec SQLite. Une fois les données de base entrées,
